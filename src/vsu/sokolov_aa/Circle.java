@@ -1,9 +1,9 @@
 package vsu.sokolov_aa;
 
 public class Circle {
-    private double a;
-    private double b;
-    private double R;
+    private final double a;
+    private final double b;
+    private final double R;
 
     public Circle(double a, double b, double r) {
         this.a = a;

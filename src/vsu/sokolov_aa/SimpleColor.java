@@ -4,5 +4,5 @@ public enum SimpleColor {
         WHITE,
         GRAY,
         ORANGE,
-        BLUE;
+        BLUE
 }
