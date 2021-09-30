@@ -9,5 +9,5 @@ public enum SimpleColor {
         YELLOW,
         GREEN,
         BLUE;
-    }
+
 }
