@@ -12,6 +12,6 @@ public class Circle {
     }
 
     public boolean isPointInsideCircle(double x, double y) {
-        return R >= Math.sqrt(Math.pow(x - a, 2) + Math.pow(y - b, 2));
+        return R >= Math.sqrt(Math.pow(a - x, 2) + Math.pow(b - y, 2));
     }
 }
