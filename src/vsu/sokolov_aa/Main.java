@@ -25,7 +25,7 @@ public class Main {
             x = getDoubleFromConsole("Enter X");
             y = getDoubleFromConsole("Enter Y");
 
-            System.out.println("color is " + getColor(x, y) + "\n\n");
+            printColorForPoint(x, y);
         } while (x <= MAX_X_VALUE && x >= MIN_X_VALUE && y <= MAX_Y_VALUE && y >= MIN_Y_VALUE);
 
     }
@@ -52,6 +52,10 @@ public class Main {
         }
 
         return color;
+    }
+
+    public static void printColorForPoint(double x, double y) {
+        System.out.println("color is " + getColor(x, y) + "\n\n");
     }
 
     public static double getDoubleFromConsole(String massage) {
